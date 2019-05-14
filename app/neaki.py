@@ -41,7 +41,7 @@ class Neaki:
         param: muertes
             - receives an integer number of negative evaluations from the meme.
         return:
-            -
+            - returns a boolean value indicating if it is a good meme.
         """
         return arribas > 300 and arribas > muertes
 
@@ -49,9 +49,9 @@ class Neaki:
         """
         Downloads the meme after checking that it is rated as good.
         param: name
-            -
+            - receives a name for the file.
         param: url
-            -
+            - receives the url where the image is located to request it.
         return:
             Returns a boolean value informing if the meme was downloaded or not.
         """
@@ -67,15 +67,15 @@ class Neaki:
         """
         Save image binaries from your urls.
         param: name
-            -
+            - receives a name for the file.
         param: url
             - receives the url where the image is located to request it.
         param: path
             - receives the location where the binary will be allocated on the computer.
         param: type_
-            -
+            - receives the extension of the binary to be downloaded.
         return:
-            -
+            - returns the location where the file was saved.
         """
         response = get(url, stream=True)
         file_name = f'{path}/{name}.{type_}'

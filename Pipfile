@@ -9,6 +9,8 @@ bs4 = "*"
 click = "*"
 setup = "*"
 behave = "==1.2.5"
+requests = "*"
+ipdb = "*"
 
 [packages]
 

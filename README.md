@@ -2,6 +2,7 @@
 
 ## Experiência em Web Scrapping
 Ferramentas utilizadas:
+
 Para o scraping:
   - bs4
   - selenium

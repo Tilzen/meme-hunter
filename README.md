@@ -1,10 +1,10 @@
 # Meme Hunter
+Aplicação CLI para fazer o download de memes automaticamente sem que o usuário precise
 
 ## Experiência em Web Scrapping
 Ferramentas utilizadas:
 
 Para o scraping:
-  - bs4
   - selenium
   - requests
 
@@ -12,9 +12,9 @@ Para o CLI:
   - click
 
 Para os testes:
-  - tdd
+  - TDD:
     - unittest
-  - bdd
+  - BDD:
     - behave
 
 ## Como rodar este projeto
@@ -25,4 +25,9 @@ Para os testes:
   
   
 ## Como rodar os testes
-- is coming...
+- TDD:
+
+      ~$ python3 -m unittest tests/tests_basic.py -v
+
+- BDD:
+  is coming

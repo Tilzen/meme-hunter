@@ -17,9 +17,11 @@ Para os testes:
     - behave
 
 ## Como rodar este projeto
-  ~$ python3 setup.py install
   
-  ~$ mhunter
+  
+    ~$ python3 setup.py install
+    ~$ mhunter
+  
   
 ## Como rodar os testes
 - is coming...

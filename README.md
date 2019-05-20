@@ -19,15 +19,15 @@ Para os testes:
 
 ## Como rodar este projeto
   
-  
+  ```bash
     ~$ python3 setup.py install
     ~$ mhunter
-  
+  ```
   
 ## Como rodar os testes
 - TDD:
-
+     ```bash
       ~$ python3 -m unittest tests/tests_basic.py -v
-
+      ```
 - BDD:
   is coming
